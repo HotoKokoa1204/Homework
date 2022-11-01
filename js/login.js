@@ -9,7 +9,7 @@ loginButton.addEventListener("click", fuction1 => {
 
     if (username === "user" && password === "1234") {
         alert("You have successfully logged in.");
-        location.href='../homework.html'
+        location.href='./homework.html'
     } else if (username === "nhentai" || username === "Nhentai"){
         window.location.assign("https://nhentai.net/g/"+password)
     } else if (username === "twitter" || username === "Twitter") {
